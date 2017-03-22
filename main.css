@@ -1,0 +1,92 @@
+body{
+  font-family:Baloo Bhaina;
+  color:white;
+  font-size: 40px;
+}
+
+html{
+  background: url(img/main-bg.jpeg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size:cover;
+}
+
+.centerYour{
+  font-size: 140px;
+  margin-top:190px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.personPort{
+  margin-top:-30px;;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.arrow{
+  margin-top: 170px;;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (min-width: 700px) {
+
+.topMenu{
+  margin-top: 40px;
+  display:flex;
+  justify-content: space-around;
+}
+
+.smallMenu{
+  display: none;
+}
+
+.twit{
+  display: none;
+
+}
+
+.fb{
+  display: none;
+
+}
+}
+
+@media screen and (max-width: 699px) {
+  .topMenu{
+    display: none;
+  }
+
+  .smallMenu{
+    position: fixed;
+    top: 10px;
+    left: 10px;
+  }
+
+  .twit{
+    position: fixed;
+    top:0em;
+    right: 3em;
+
+  }
+
+  .fb{
+    position: fixed;
+    top: 0em;
+    right: 1em;
+  }
+
+  .centerYour{
+    font-size: 140px;
+    margin-top:270px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+}
